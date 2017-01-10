@@ -1,0 +1,57 @@
+.site-footer
+  max-width: 1100px
+  margin: 4em auto
+  font-family: $font__ocr
+  font-size: 12px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+  .footer-logo-and-address
+    width: 50%
+    display: flex
+    align-items: center
+
+    .footer-logo
+      display: inline-block
+
+      img
+        margin-right: 16px
+        width: 30px
+
+    .footer-address
+      border-left: 1px solid #aaa
+      padding-left: 16px
+
+      p
+        color: #666
+        margin: 0
+
+  .footer-copyright
+    font-size: 9px
+    letter-spacing: -1px
+    width: 50%
+    color: #aaa
+    text-align: right
+    align-self: flex-end
+
++media($small-screen)
+  .site-footer
+    .footer-logo-and-address
+      width: 100%
+      margin-bottom: 2em
+    .footer-copyright
+      width: 100%
+      margin-top: 2em
+      text-align: left
+
++media($medium-screen)
+  .site-footer
+    .footer-logo-and-address
+      width: 100%
+      margin-bottom: 2em
+
+    .footer-copyright
+      width: 100%
+      margin-top: 2em
+      text-align: left

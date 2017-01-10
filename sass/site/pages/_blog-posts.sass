@@ -1,0 +1,28 @@
+.post-template-default
+
+  .site-content
+    +outer-container
+    // background: pink
+    header.entry-header
+      display: block
+      +clearfix
+
+    article
+      // background: pink
+      margin-left: auto
+      margin-right: auto
+      +span-columns(10)
+      +shift(1)
+
+    .entry-content
+      width: 100%
+
+    .comments-area
+      margin-left: auto
+      margin-right: auto
+
+  h1
+    font-family: $font__sutro
+    
+  h2, h3, h4, h5
+    font-family: $font__adelle

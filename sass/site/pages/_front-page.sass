@@ -1,0 +1,90 @@
+article
+  padding: 0 1em
+
+  section
+    margin: 0 0 1.5em 0
+    +clearfix
+
+    header
+      img
+        width: 160px
+
+    section
+      margin: 0
+
+  +media($small-screen)
+    section
+      header
+        +span-columns(2)
+        +shift(0)
+        +omega()
+        text-align: center
+        margin-bottom: 1em
+      section
+        +span-columns(2)
+        +omega()
+
+  +media($medium-screen)
+    section
+      header
+        +span-columns(4)
+        +shift(0)
+        +omega()
+        text-align: center
+        margin-bottom: 1.5em
+      section
+        +span-columns(4)
+        +omega()
+        text-align: center
+
+  +media($large-screen)
+    section
+      header
+        +span-columns(3)
+        +shift(1)
+        +omega()
+        padding-right: 1em
+      section
+        +span-columns(3)
+        +omega()
+
+  +media($xl-screen)
+    section
+      +outer-container
+
+      header
+        +span-columns(3)
+        +shift(1)
+        +omega()
+        img
+          width: 175px
+
+      section
+        +span-columns(7)
+        +omega()
+        padding: 0
+
+hr
+  margin: 1em auto 2em auto
+  max-width: 1060px
+  +media($small-screen)
+    display: none
+  +media($medium-screen)
+    // display: none
+
+.header-too-divider
+  margin: -1em 0 3em 0
+  height: 26px
+  background:
+    image: url('img/tile.svg')
+    size: 8px
+
+.vertical-divider
+  width: 10px
+  float: left
+  margin-right: 1em
+  display: block
+  +media($small-screen)
+    display: none
+  +media($medium-screen)
+    display: none

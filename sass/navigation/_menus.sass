@@ -1,0 +1,91 @@
+/* Small menu.
+// .menu-toggle,
+// .main-navigation.toggled ul
+//   display: block
+//   float: right
+
+.menu-toggle
+  float: right
+  display: none
+  background:
+    color: transparent
+    image: url(img/menu.svg)
+    repeat: no-repeat
+  border: none
+  width: 50px
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation
+  .site-main &
+    margin: 0 0 1.5em
+    overflow: hidden
+
+  .nav-previous
+    float: left
+    width: 50%
+
+  .nav-next
+    float: right
+    text-align: right
+    width: 50%
+
+#site-navigation
+  width: 100%
+  display: block
+  +outer-container
+  +linear-gradient($resolution-red,$resolution-red-dark)
+  margin-left: auto
+  margin-right: auto
+  padding: 1em
+  text-align: center
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5)
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5)
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5)
+
+  ul
+    list-style: none
+    margin: 0
+    padding-left: 0
+    li
+      display: inline-block
+  a
+    font-family: $font__ocr
+    font-weight: 400
+    color: white
+    margin-right: 2em
+    text-transform: uppercase
+    letter-spacing: .4em
+
++media($small-screen)
+  .menu-menu-1-container
+    display: none
+  .nav-menu
+    display: none
+  .menu-toggle
+    display: block
+
++media($medium-screen)
+  .menu-menu-1-container
+    display: none
+  .menu-toggle
+    display: block
+  .nav-menu
+    display: none
+
++media($large-screen)
+  width: $size__content-width
+  .main-navigation ul
+    display: block
+
+.primary-menu-ul.nav-menu.open
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  height: 100vh
+  margin-top: 100px
+  li
+    a
+      padding: 1em
+      background: white
+      color: $resolution-red !important

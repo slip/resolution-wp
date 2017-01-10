@@ -1,0 +1,72 @@
+
+*//                      _   _                    _
+*//  _ __ ___   __ _ ___| |_| |__   ___  __ _  __| |
+*// | '_ ` _ \ / _` / __| __| '_ \ / _ \/ _` |/ _` |
+*// | | | | | | (_| \__ \ |_| | | |  __/ (_| | (_| |
+*// |_| |_| |_|\__,_|___/\__|_| |_|\___|\__,_|\__,_|
+*//
+
+
+#masthead
+  margin: 0 auto 2em auto
+  width: 100%
+  max-width: 1400px
+  min-height: 50vh
+  background:
+    image: url(img/athens-firehall-hero.jpg)
+    repeat: no-repeat
+    position: bottom center
+    size: cover
+
+.resolution-logo
+  +hide-text
+  width: 350px
+  height: 350px
+  background:
+    image: url(img/logo.svg)
+    repeat: no-repeat
+    position: center
+    size: 250px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 2.75em
+
+
+*//                 _       _
+*//  ___  ___   ___(_) __ _| |
+*// / __|/ _ \ / __| |/ _` | |
+*// \__ \ (_) | (__| | (_| | |
+*// |___/\___/ \___|_|\__,_|_|
+*//
+
+
+.social-header-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  max-width: 1100px
+  margin-left: auto
+  margin-right: auto
+  padding: 0 2em
+
+  +media($medium-screen)
+    margin-bottom: 2em
+
+  +media($small-screen)
+    display: none
+  .services-and-location
+    font-family: $font__roboto
+    font-size: 14px
+    font-weight: 300
+    letter-spacing: .5px
+    align-self: center
+
+  .social-icons
+    display: flex
+    justify-content: space-between
+    width: 30%
+    text-align: right
+    align-self: center
+
+    .social-icon
+      width: 30px
