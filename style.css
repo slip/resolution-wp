@@ -435,7 +435,7 @@ table {
 
 .site-footer {
   max-width: 1100px;
-  margin: 4em auto;
+  margin: 4em 2em;
   font-family: "ocr-b-std", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 12px;
   display: flex;
@@ -466,21 +466,25 @@ table {
 
 @media screen and (max-width: 399px) {
   .site-footer .footer-logo-and-address {
-    width: 100%;
-    margin-bottom: 2em; }
+    width: auto;
+    margin: 2em auto; }
+    .site-footer .footer-logo-and-address img {
+      margin-right: 16px; }
   .site-footer .footer-copyright {
     width: 100%;
     margin-top: 2em;
-    text-align: left; } }
+    text-align: center; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
   .site-footer .footer-logo-and-address {
-    width: 100%;
-    margin-bottom: 2em; }
+    width: auto;
+    margin: 2em auto; }
+    .site-footer .footer-logo-and-address img {
+      margin-right: 16px; }
   .site-footer .footer-copyright {
     width: 100%;
     margin-top: 2em;
-    text-align: left; } }
+    text-align: center; } }
 
 /*--------------------------------------------------------------
  *# Forms
@@ -844,26 +848,28 @@ article {
       article section section:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 400px) and (max-width: 835px) {
-    article section header {
-      float: left;
-      display: block;
-      margin-right: 7.4229717578%;
-      width: 100%;
-      margin-left: 0%;
-      margin-right: 0;
-      text-align: center;
-      margin-bottom: 1.5em; }
-      article section header:last-child {
-        margin-right: 0; }
-    article section section {
-      float: left;
-      display: block;
-      margin-right: 7.4229717578%;
-      width: 100%;
-      margin-right: 0;
-      text-align: center; }
-      article section section:last-child {
-        margin-right: 0; } }
+    article section {
+      margin: 0 5em; }
+      article section header {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 1.5em; }
+        article section header:last-child {
+          margin-right: 0; }
+      article section section {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%;
+        margin-right: 0;
+        text-align: center; }
+        article section section:last-child {
+          margin-right: 0; } }
   @media screen and (min-width: 836px) and (max-width: 1099px) {
     article section header {
       float: left;
