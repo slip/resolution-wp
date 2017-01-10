@@ -414,7 +414,12 @@ table {
   padding: 0 2em; }
   @media screen and (min-width: 400px) and (max-width: 835px) {
     .social-header-container {
-      margin-bottom: 2em; } }
+      margin-bottom: 2em; }
+      .social-header-container .services-and-location {
+        display: none; }
+      .social-header-container .social-icons {
+        width: 80%;
+        margin: 0 auto; } }
   @media screen and (max-width: 399px) {
     .social-header-container {
       display: none; } }
@@ -926,8 +931,9 @@ hr {
       display: none; } }
 
 .header-too-divider {
-  margin: -1em 0 3em 0;
+  margin: 2em auto;
   height: 26px;
+  max-width: 1060px;
   background-image: url("img/tile.svg");
   background-size: 8px; }
 
