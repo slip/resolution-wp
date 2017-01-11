@@ -440,7 +440,7 @@ table {
 
 .site-footer {
   max-width: 1100px;
-  margin: 4em 2em;
+  margin: 4em auto;
   font-family: "ocr-b-std", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 12px;
   display: flex;
@@ -647,7 +647,7 @@ a {
     color: white;
     margin-right: 2em;
     text-transform: uppercase;
-    letter-spacing: .4em; }
+    letter-spacing: 2px; }
 
 @media screen and (max-width: 399px) {
   .menu-menu-1-container {
@@ -675,8 +675,10 @@ a {
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;
-  margin-top: 100px; }
+  margin: 100px auto;
+    margin-margin-top: 100px; }
   .primary-menu-ul.nav-menu.open li a {
+    margin-left: 80px;
     padding: 1em;
     background: white;
     color: #FF3100 !important; }
@@ -822,7 +824,7 @@ a {
  *## Pages
  *-------------------------------------------------------------- */
 article {
-  padding: 0 1em; }
+  margin: 0 auto; }
   article section {
     margin: 0 0 1.5em 0;
     content: "";
