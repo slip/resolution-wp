@@ -1016,10 +1016,13 @@ section.full-width h1 {
   color: #FF3100; }
 
 .team-member-name {
-  margin-bottom: 0.25em; }
+  margin-bottom: 0.125em;
+  letter-spacing: 2px; }
 
 .team-title {
-  color: #00829B; }
+  font-size: 0.8em;
+  font-style: oblique;
+  color: #FF3100; }
 
 @media screen and (max-width: 399px) {
   #post-9 {
