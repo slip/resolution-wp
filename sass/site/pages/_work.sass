@@ -1,20 +1,6 @@
-section.full-width
-  h1
-    margin-bottom: 0.5em
-    color: $resolution-red
-
-.team-member-name
-  margin-bottom: 0.125em
-  letter-spacing: 2px
-
-.team-title
-  font-size: 0.8em
-  font-style: oblique
-  color: $resolution-red
-
 
 +media($small-screen)
-  #post-84
+  #post-91
     +outer-container
     margin-left: 1em
     margin-right: 1em
@@ -29,7 +15,7 @@ section.full-width
         +span-columns(4)
 
 +media($medium-screen)
-  #post-84
+  #post-91
     +outer-container
     section
       +outer-container
@@ -50,28 +36,32 @@ section.full-width
       +shift(1)
 
 +media($large-screen)
-  #post-84
+  #post-91
     +outer-container
     section
+      +outer-container
       section
         +span-columns(6)
       header
         +span-columns(2)
+        +omega
         img
-          width: 140px
+          width: 160px
 
     section.full-width
       +span-columns(8 of 10)
       +shift(1)
 
 +media($xl-screen)
-  #post-84
+  #post-91
     +outer-container
     section
+      +outer-container
       section
         +span-columns(8 of 12)
       header
         +span-columns(2 of 12)
+        +omega
         img
           width: 140px
 

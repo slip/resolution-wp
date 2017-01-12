@@ -40,22 +40,80 @@
  *	## Captions
  *	## Galleries
  *-------------------------------------------------------------- */
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_box-sizing.scss */
 html {
   box-sizing: border-box; }
 
+/* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_visual-grid.scss */
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+  @media screen and (max-width: 399px) {
+    /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_visual-grid.scss */
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, pink 0, pink 19.4327711816%, transparent 19.4327711816%, transparent 26.8557429395%, pink 26.8557429395%, pink 46.2885141211%, transparent 46.2885141211%, transparent 53.7114858789%, pink 53.7114858789%, pink 73.1442570605%, transparent 73.1442570605%, transparent 80.5672288184%, pink 80.5672288184%, pink 100%, transparent 100%);
+      background-image: -moz-linear-gradient(left, transparent 0, pink 0, pink 19.4327711816%, transparent 19.4327711816%, transparent 26.8557429395%, pink 26.8557429395%, pink 46.2885141211%, transparent 46.2885141211%, transparent 53.7114858789%, pink 53.7114858789%, pink 73.1442570605%, transparent 73.1442570605%, transparent 80.5672288184%, pink 80.5672288184%, pink 100%, transparent 100%);
+      background-image: -ms-linear-gradient(left, transparent 0, pink 0, pink 19.4327711816%, transparent 19.4327711816%, transparent 26.8557429395%, pink 26.8557429395%, pink 46.2885141211%, transparent 46.2885141211%, transparent 53.7114858789%, pink 53.7114858789%, pink 73.1442570605%, transparent 73.1442570605%, transparent 80.5672288184%, pink 80.5672288184%, pink 100%, transparent 100%);
+      background-image: -o-linear-gradient(left, transparent 0, pink 0, pink 19.4327711816%, transparent 19.4327711816%, transparent 26.8557429395%, pink 26.8557429395%, pink 46.2885141211%, transparent 46.2885141211%, transparent 53.7114858789%, pink 53.7114858789%, pink 73.1442570605%, transparent 73.1442570605%, transparent 80.5672288184%, pink 80.5672288184%, pink 100%, transparent 100%);
+      background-image: linear-gradient(to left, transparent 0, pink 0, pink 19.4327711816%, transparent 19.4327711816%, transparent 26.8557429395%, pink 26.8557429395%, pink 46.2885141211%, transparent 46.2885141211%, transparent 53.7114858789%, pink 53.7114858789%, pink 73.1442570605%, transparent 73.1442570605%, transparent 80.5672288184%, pink 80.5672288184%, pink 100%, transparent 100%); } }
+  @media screen and (min-width: 400px) and (max-width: 835px) {
+    /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_visual-grid.scss */
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, pink 0, pink 9.3686687723%, transparent 9.3686687723%, transparent 12.9473330325%, pink 12.9473330325%, pink 22.3160018048%, transparent 22.3160018048%, transparent 25.8946660651%, pink 25.8946660651%, pink 35.2633348373%, transparent 35.2633348373%, transparent 38.8419990976%, pink 38.8419990976%, pink 48.2106678699%, transparent 48.2106678699%, transparent 51.7893321301%, pink 51.7893321301%, pink 61.1580009024%, transparent 61.1580009024%, transparent 64.7366651627%, pink 64.7366651627%, pink 74.1053339349%, transparent 74.1053339349%, transparent 77.6839981952%, pink 77.6839981952%, pink 87.0526669675%, transparent 87.0526669675%, transparent 90.6313312277%, pink 90.6313312277%, pink 100%, transparent 100%);
+      background-image: -moz-linear-gradient(left, transparent 0, pink 0, pink 9.3686687723%, transparent 9.3686687723%, transparent 12.9473330325%, pink 12.9473330325%, pink 22.3160018048%, transparent 22.3160018048%, transparent 25.8946660651%, pink 25.8946660651%, pink 35.2633348373%, transparent 35.2633348373%, transparent 38.8419990976%, pink 38.8419990976%, pink 48.2106678699%, transparent 48.2106678699%, transparent 51.7893321301%, pink 51.7893321301%, pink 61.1580009024%, transparent 61.1580009024%, transparent 64.7366651627%, pink 64.7366651627%, pink 74.1053339349%, transparent 74.1053339349%, transparent 77.6839981952%, pink 77.6839981952%, pink 87.0526669675%, transparent 87.0526669675%, transparent 90.6313312277%, pink 90.6313312277%, pink 100%, transparent 100%);
+      background-image: -ms-linear-gradient(left, transparent 0, pink 0, pink 9.3686687723%, transparent 9.3686687723%, transparent 12.9473330325%, pink 12.9473330325%, pink 22.3160018048%, transparent 22.3160018048%, transparent 25.8946660651%, pink 25.8946660651%, pink 35.2633348373%, transparent 35.2633348373%, transparent 38.8419990976%, pink 38.8419990976%, pink 48.2106678699%, transparent 48.2106678699%, transparent 51.7893321301%, pink 51.7893321301%, pink 61.1580009024%, transparent 61.1580009024%, transparent 64.7366651627%, pink 64.7366651627%, pink 74.1053339349%, transparent 74.1053339349%, transparent 77.6839981952%, pink 77.6839981952%, pink 87.0526669675%, transparent 87.0526669675%, transparent 90.6313312277%, pink 90.6313312277%, pink 100%, transparent 100%);
+      background-image: -o-linear-gradient(left, transparent 0, pink 0, pink 9.3686687723%, transparent 9.3686687723%, transparent 12.9473330325%, pink 12.9473330325%, pink 22.3160018048%, transparent 22.3160018048%, transparent 25.8946660651%, pink 25.8946660651%, pink 35.2633348373%, transparent 35.2633348373%, transparent 38.8419990976%, pink 38.8419990976%, pink 48.2106678699%, transparent 48.2106678699%, transparent 51.7893321301%, pink 51.7893321301%, pink 61.1580009024%, transparent 61.1580009024%, transparent 64.7366651627%, pink 64.7366651627%, pink 74.1053339349%, transparent 74.1053339349%, transparent 77.6839981952%, pink 77.6839981952%, pink 87.0526669675%, transparent 87.0526669675%, transparent 90.6313312277%, pink 90.6313312277%, pink 100%, transparent 100%);
+      background-image: linear-gradient(to left, transparent 0, pink 0, pink 9.3686687723%, transparent 9.3686687723%, transparent 12.9473330325%, pink 12.9473330325%, pink 22.3160018048%, transparent 22.3160018048%, transparent 25.8946660651%, pink 25.8946660651%, pink 35.2633348373%, transparent 35.2633348373%, transparent 38.8419990976%, pink 38.8419990976%, pink 48.2106678699%, transparent 48.2106678699%, transparent 51.7893321301%, pink 51.7893321301%, pink 61.1580009024%, transparent 61.1580009024%, transparent 64.7366651627%, pink 64.7366651627%, pink 74.1053339349%, transparent 74.1053339349%, transparent 77.6839981952%, pink 77.6839981952%, pink 87.0526669675%, transparent 87.0526669675%, transparent 90.6313312277%, pink 90.6313312277%, pink 100%, transparent 100%); } }
+  @media screen and (min-width: 836px) and (max-width: 1099px) {
+    /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_visual-grid.scss */
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, pink 0, pink 7.4416725228%, transparent 7.4416725228%, transparent 10.2842586086%, pink 10.2842586086%, pink 17.7259311314%, transparent 17.7259311314%, transparent 20.5685172171%, pink 20.5685172171%, pink 28.01018974%, transparent 28.01018974%, transparent 30.8527758257%, pink 30.8527758257%, pink 38.2944483486%, transparent 38.2944483486%, transparent 41.1370344343%, pink 41.1370344343%, pink 48.5787069571%, transparent 48.5787069571%, transparent 51.4212930429%, pink 51.4212930429%, pink 58.8629655657%, transparent 58.8629655657%, transparent 61.7055516514%, pink 61.7055516514%, pink 69.1472241743%, transparent 69.1472241743%, transparent 71.98981026%, pink 71.98981026%, pink 79.4314827829%, transparent 79.4314827829%, transparent 82.2740688686%, pink 82.2740688686%, pink 89.7157413914%, transparent 89.7157413914%, transparent 92.5583274772%, pink 92.5583274772%, pink 100%, transparent 100%);
+      background-image: -moz-linear-gradient(left, transparent 0, pink 0, pink 7.4416725228%, transparent 7.4416725228%, transparent 10.2842586086%, pink 10.2842586086%, pink 17.7259311314%, transparent 17.7259311314%, transparent 20.5685172171%, pink 20.5685172171%, pink 28.01018974%, transparent 28.01018974%, transparent 30.8527758257%, pink 30.8527758257%, pink 38.2944483486%, transparent 38.2944483486%, transparent 41.1370344343%, pink 41.1370344343%, pink 48.5787069571%, transparent 48.5787069571%, transparent 51.4212930429%, pink 51.4212930429%, pink 58.8629655657%, transparent 58.8629655657%, transparent 61.7055516514%, pink 61.7055516514%, pink 69.1472241743%, transparent 69.1472241743%, transparent 71.98981026%, pink 71.98981026%, pink 79.4314827829%, transparent 79.4314827829%, transparent 82.2740688686%, pink 82.2740688686%, pink 89.7157413914%, transparent 89.7157413914%, transparent 92.5583274772%, pink 92.5583274772%, pink 100%, transparent 100%);
+      background-image: -ms-linear-gradient(left, transparent 0, pink 0, pink 7.4416725228%, transparent 7.4416725228%, transparent 10.2842586086%, pink 10.2842586086%, pink 17.7259311314%, transparent 17.7259311314%, transparent 20.5685172171%, pink 20.5685172171%, pink 28.01018974%, transparent 28.01018974%, transparent 30.8527758257%, pink 30.8527758257%, pink 38.2944483486%, transparent 38.2944483486%, transparent 41.1370344343%, pink 41.1370344343%, pink 48.5787069571%, transparent 48.5787069571%, transparent 51.4212930429%, pink 51.4212930429%, pink 58.8629655657%, transparent 58.8629655657%, transparent 61.7055516514%, pink 61.7055516514%, pink 69.1472241743%, transparent 69.1472241743%, transparent 71.98981026%, pink 71.98981026%, pink 79.4314827829%, transparent 79.4314827829%, transparent 82.2740688686%, pink 82.2740688686%, pink 89.7157413914%, transparent 89.7157413914%, transparent 92.5583274772%, pink 92.5583274772%, pink 100%, transparent 100%);
+      background-image: -o-linear-gradient(left, transparent 0, pink 0, pink 7.4416725228%, transparent 7.4416725228%, transparent 10.2842586086%, pink 10.2842586086%, pink 17.7259311314%, transparent 17.7259311314%, transparent 20.5685172171%, pink 20.5685172171%, pink 28.01018974%, transparent 28.01018974%, transparent 30.8527758257%, pink 30.8527758257%, pink 38.2944483486%, transparent 38.2944483486%, transparent 41.1370344343%, pink 41.1370344343%, pink 48.5787069571%, transparent 48.5787069571%, transparent 51.4212930429%, pink 51.4212930429%, pink 58.8629655657%, transparent 58.8629655657%, transparent 61.7055516514%, pink 61.7055516514%, pink 69.1472241743%, transparent 69.1472241743%, transparent 71.98981026%, pink 71.98981026%, pink 79.4314827829%, transparent 79.4314827829%, transparent 82.2740688686%, pink 82.2740688686%, pink 89.7157413914%, transparent 89.7157413914%, transparent 92.5583274772%, pink 92.5583274772%, pink 100%, transparent 100%);
+      background-image: linear-gradient(to left, transparent 0, pink 0, pink 7.4416725228%, transparent 7.4416725228%, transparent 10.2842586086%, pink 10.2842586086%, pink 17.7259311314%, transparent 17.7259311314%, transparent 20.5685172171%, pink 20.5685172171%, pink 28.01018974%, transparent 28.01018974%, transparent 30.8527758257%, pink 30.8527758257%, pink 38.2944483486%, transparent 38.2944483486%, transparent 41.1370344343%, pink 41.1370344343%, pink 48.5787069571%, transparent 48.5787069571%, transparent 51.4212930429%, pink 51.4212930429%, pink 58.8629655657%, transparent 58.8629655657%, transparent 61.7055516514%, pink 61.7055516514%, pink 69.1472241743%, transparent 69.1472241743%, transparent 71.98981026%, pink 71.98981026%, pink 79.4314827829%, transparent 79.4314827829%, transparent 82.2740688686%, pink 82.2740688686%, pink 89.7157413914%, transparent 89.7157413914%, transparent 92.5583274772%, pink 92.5583274772%, pink 100%, transparent 100%); } }
+  @media screen and (min-width: 1100px) {
+    /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_visual-grid.scss */
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+      background-image: -moz-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+      background-image: -ms-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+      background-image: -o-linear-gradient(left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%);
+      background-image: linear-gradient(to left, transparent 0, pink 0, pink 6.1721523119%, transparent 6.1721523119%, transparent 8.5298043353%, pink 8.5298043353%, pink 14.7019566472%, transparent 14.7019566472%, transparent 17.0596086706%, pink 17.0596086706%, pink 23.2317609825%, transparent 23.2317609825%, transparent 25.5894130058%, pink 25.5894130058%, pink 31.7615653177%, transparent 31.7615653177%, transparent 34.1192173411%, pink 34.1192173411%, pink 40.291369653%, transparent 40.291369653%, transparent 42.6490216764%, pink 42.6490216764%, pink 48.8211739883%, transparent 48.8211739883%, transparent 51.1788260117%, pink 51.1788260117%, pink 57.3509783236%, transparent 57.3509783236%, transparent 59.708630347%, pink 59.708630347%, pink 65.8807826589%, transparent 65.8807826589%, transparent 68.2384346823%, pink 68.2384346823%, pink 74.4105869942%, transparent 74.4105869942%, transparent 76.7682390175%, pink 76.7682390175%, pink 82.9403913294%, transparent 82.9403913294%, transparent 85.2980433528%, pink 85.2980433528%, pink 91.4701956647%, transparent 91.4701956647%, transparent 93.8278476881%, pink 93.8278476881%, pink 100%, transparent 100%); } }
+
+/* line 15, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/variables-site/_typography.sass */
 .res-red {
   color: #FF3100; }
 
+/* line 18, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/variables-site/_typography.sass */
 .res-blue {
   color: #00829B; }
 
+/* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/variables-site/_structure.sass */
 .admin-bar .site-header {
   top: 32px; }
 
 @media screen and (max-width: 865px) {
+  /* line 13, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/variables-site/_structure.sass */
   .admin-bar .site-header {
     top: 46px; } }
 
@@ -63,184 +121,236 @@ html {
  *# Normalize
  *-------------------------------------------------------------- */
 /*! reeeset.css 0.0.8 - https://github.com/corysimmons/reeeset */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 progress, sub, sup {
   vertical-align: baseline; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 button, hr, input {
   overflow: visible; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 html, legend {
   box-sizing: border-box; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 *, fieldset, legend {
   padding: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 *, body, fieldset, figure, h1 {
   margin: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 audio, embed, iframe, img, input, legend, object, table, video {
   max-width: 100%; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 figcaption, menu, article, aside, details, figure, footer, header, main, nav, section, summary {
   display: block; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 audio, canvas, progress, video {
   display: inline-block; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [hidden], template {
   display: none; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 a:active, a:hover {
   outline-width: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 b, strong {
   font-weight: bolder; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 dfn {
   font-style: italic; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 mark {
   background-color: #ff0;
   color: #000; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 small {
   font-size: 80%; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 sub {
   bottom: -.25em; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 sup {
   top: -.5em; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 img {
   border-style: none; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 svg:not(:root) {
   overflow: hidden; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 code, kbd, pre, samp {
   font-family: monospace,monospace;
   font-size: 1em; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 hr {
   box-sizing: content-box;
   height: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 button, input, optgroup, select, textarea {
   font: inherit;
   margin: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 optgroup {
   font-weight: 700; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 button, select {
   text-transform: none; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=submit], [type=reset], button, html [type=button] {
   -webkit-appearance: button; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
   border-style: none;
   padding: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
   outline: ButtonText dotted 1px; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 fieldset {
   border: 1px solid silver; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 legend {
   color: inherit;
   display: table;
   white-space: normal; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 textarea {
   overflow: auto; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=checkbox], [type=radio] {
   box-sizing: border-box;
   padding: 0; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
   height: auto; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: .54; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   line-height: 1.666; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 *, :after, :before {
   box-sizing: inherit; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 .browserupgrade {
   padding: 15px;
   text-align: center;
   color: #fff;
   background: #333; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 .browserupgrade a {
   text-decoration: none;
   color: #1e90ff;
   font-weight: 700; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 .browserupgrade a:hover {
   text-decoration: underline; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h1 {
   font-size: 2.25rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h2 {
   font-size: 2rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h3 {
   font-size: 1.75rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h4 {
   font-size: 1.5rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h5 {
   font-size: 1.25rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 h6 {
   font-size: 1rem; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/_normalize.sass */
 table {
   width: 100%; }
 
@@ -248,6 +358,7 @@ table {
 /*--------------------------------------------------------------
  *# Typography
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_typography.sass */
 body,
 button,
 input,
@@ -259,9 +370,11 @@ textarea {
   font-size: 1rem;
   line-height: 1.5; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_headings.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "sutro", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
+/* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_headings.sass */
 h2 {
   font-family: "sutro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 2.2em;
@@ -269,6 +382,7 @@ h2 {
   line-height: 42px;
   letter-spacing: 0px; }
 
+/* line 13, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_headings.sass */
 h3 {
   font-family: "adelle", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 1.6em;
@@ -276,21 +390,26 @@ h3 {
   letter-spacing: 1px;
   margin-bottom: .6em; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 p {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 1.5em;
   font-weight: 300; }
 
+/* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 dfn, cite, em, i {
   font-style: italic; }
 
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 blockquote {
   margin: 0 1.5em; }
 
+/* line 13, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 address {
   margin: 0 0 1.5em; }
 
+/* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -302,84 +421,104 @@ pre {
   overflow: auto;
   padding: 1.6em; }
 
+/* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
+/* line 33, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
+/* line 37, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 mark, ins {
   background: #fff9c0;
   text-decoration: none; }
 
+/* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/typography/_copy.sass */
 big {
   font-size: 125%; }
 
 /*--------------------------------------------------------------
  *# Elements
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 html {
   box-sizing: border-box; }
 
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 *,
 *:before,
 *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit; }
 
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 body {
   background: #fff;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   /* Fallback for when there is no custom background color defined. */ }
 
+/* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 blockquote, q {
   quotes: "" ""; }
+  /* line 19, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
   blockquote:before, blockquote:after, q:before, q:after {
     content: ""; }
 
+/* line 23, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 hr {
   background-color: #ccc;
   border: 0;
   height: 2px; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 ul, ol {
   margin: 0 0 1.5em 3em; }
 
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 ul {
   list-style: disc; }
 
+/* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 ol {
   list-style: decimal; }
 
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em; }
 
+/* line 15, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 dt {
   font-weight: bold; }
 
+/* line 18, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_lists.sass */
 dd {
   margin: 0 1.5em 1.5em; }
 
+/* line 31, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
   max-width: 100%;
   /* Adhere to container width. */ }
 
+/* line 39, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_elements.sass */
 figure {
   margin: 1em 0;
   /* Extra wide images within figure tags don't overflow the content area. */ }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_tables.sass */
 table {
   margin: 0 0 1.5em;
   width: 100%; }
 
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
 #masthead {
   margin: 0 auto 2em auto;
   width: 100%;
@@ -390,6 +529,7 @@ table {
   background-position: bottom center;
   background-size: cover; }
 
+/* line 21, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
 .resolution-logo {
   overflow: hidden;
   text-indent: 101%;
@@ -405,6 +545,7 @@ table {
   margin-right: auto;
   margin-top: 140px; }
 
+/* line 46, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
 .social-header-container {
   display: flex;
   flex-wrap: wrap;
@@ -414,6 +555,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   padding: 0 2em; }
+  /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
   .social-header-container .services-and-location {
     font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 14px;
@@ -421,6 +563,7 @@ table {
     letter-spacing: .5px;
     align-self: center;
     margin-left: 1em; }
+  /* line 64, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
   .social-header-container .social-icons {
     display: flex;
     justify-content: space-between;
@@ -428,25 +571,33 @@ table {
     text-align: right;
     align-self: center;
     margin-right: 1em; }
+    /* line 72, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
     .social-header-container .social-icons .social-icon {
       width: 30px; }
   @media screen and (min-width: 400px) and (max-width: 835px) {
+    /* line 46, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
     .social-header-container {
       margin-bottom: 2em; }
+      /* line 77, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
       .social-header-container .services-and-location {
         display: none; }
+      /* line 79, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
       .social-header-container .social-icons {
         width: 75%;
         margin: 0 auto; } }
   @media screen and (max-width: 399px) {
+    /* line 46, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
     .social-header-container {
       margin-bottom: 1em; }
+      /* line 85, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
       .social-header-container .services-and-location {
         display: none; }
+      /* line 87, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_header.sass */
       .social-header-container .social-icons {
         width: 90%;
         margin: 0 auto; } }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
 .site-footer {
   width: 90%;
   max-width: 1100px;
@@ -456,21 +607,27 @@ table {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
+  /* line 11, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-logo-and-address {
     width: 50%;
     display: flex;
     align-items: center; }
+    /* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
     .site-footer .footer-logo-and-address .footer-logo {
       display: inline-block; }
+      /* line 19, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
       .site-footer .footer-logo-and-address .footer-logo img {
         margin-right: 16px;
         width: 30px; }
+    /* line 23, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
     .site-footer .footer-logo-and-address .footer-address {
       border-left: 1px solid #aaa;
       padding-left: 16px; }
+      /* line 27, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
       .site-footer .footer-logo-and-address .footer-address p {
         color: #666;
         margin: 0; }
+  /* line 31, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-copyright {
     font-size: 9px;
     letter-spacing: -1px;
@@ -480,22 +637,28 @@ table {
     align-self: flex-end; }
 
 @media screen and (max-width: 399px) {
+  /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-logo-and-address {
     width: auto;
     margin: 2em auto; }
+    /* line 44, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
     .site-footer .footer-logo-and-address img {
       margin-right: 16px; }
+  /* line 46, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-copyright {
     width: 100%;
     margin-top: 2em;
     text-align: center; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 53, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-logo-and-address {
     width: auto;
     margin: 2em auto; }
+    /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
     .site-footer .footer-logo-and-address img {
       margin-right: 16px; }
+  /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/elements/_footer.sass */
   .site-footer .footer-copyright {
     width: 100%;
     margin-top: 2em;
@@ -504,6 +667,7 @@ table {
 /*--------------------------------------------------------------
  *# Forms
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_buttons.sass */
 button,
 input[type="button"],
 input[type="reset"],
@@ -517,11 +681,13 @@ input[type="submit"] {
   text-transform: uppercase;
   line-height: 1;
   padding: .6em 1em .4em; }
+  /* line 17, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_buttons.sass */
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
     border-color: #ccc #bbb #aaa; }
+  /* line 20, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_buttons.sass */
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -531,6 +697,7 @@ input[type="submit"] {
   input[type="submit"]:focus {
     border-color: #aaa #bbb #bbb; }
 
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_fields.sass */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -551,6 +718,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px; }
+  /* line 22, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_fields.sass */
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -569,9 +737,11 @@ textarea {
   textarea:focus {
     color: #111; }
 
+/* line 25, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_fields.sass */
 select {
   border: 1px solid #ccc; }
 
+/* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/forms/_fields.sass */
 textarea {
   width: 100%; }
 
@@ -581,22 +751,28 @@ textarea {
 /*--------------------------------------------------------------
  *## Links
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_links.sass */
 a {
   color: #FF3100;
   text-decoration: none; }
+  /* line 5, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_links.sass */
   a:visited {
     color: #902101; }
+  /* line 8, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_links.sass */
   a:hover, a:focus, a:active {
     color: #00829B;
     text-decoration: underline; }
+  /* line 14, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_links.sass */
   a:focus {
     outline: thin dotted; }
+  /* line 17, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_links.sass */
   a:hover, a:active {
     outline: 0; }
 
 /*--------------------------------------------------------------
  *## Menus
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 .menu-toggle {
   float: right;
   display: none;
@@ -607,18 +783,21 @@ a {
   width: 50px;
   outline: none; }
 
+/* line 15, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
 
+/* line 19, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%; }
 
+/* line 23, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -626,6 +805,7 @@ a {
   text-align: right;
   width: 50%; }
 
+/* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 #site-navigation {
   width: 100%;
   display: block;
@@ -645,12 +825,15 @@ a {
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5); }
+  /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   #site-navigation ul {
     list-style: none;
     margin: 0;
     padding-left: 0; }
+    /* line 45, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
     #site-navigation ul li {
       display: inline-block; }
+  /* line 47, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   #site-navigation a {
     font-family: "ocr-b-std", "Helvetica Neue", "Helvetica", sans-serif;
     font-weight: 400;
@@ -660,26 +843,34 @@ a {
     letter-spacing: 2px; }
 
 @media screen and (max-width: 399px) {
+  /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .menu-menu-1-container {
     display: none; }
+  /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .nav-menu {
     display: none; }
+  /* line 60, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .menu-toggle {
     display: block; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 64, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .menu-menu-1-container {
     display: none; }
+  /* line 66, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .menu-toggle {
     display: block; }
+  /* line 68, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .nav-menu {
     display: none; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
   width: auto;
+  /* line 73, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .main-navigation ul {
     display: block; } }
 
+/* line 76, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
 .primary-menu-ul.nav-menu.open {
   display: flex;
   flex-direction: column;
@@ -687,8 +878,10 @@ a {
   height: 100vh;
   margin-left: auto;
   margin-right: auto; }
+  /* line 83, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
   .primary-menu-ul.nav-menu.open li {
     margin-bottom: calc(100vh/16); }
+    /* line 85, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/navigation/_menus.sass */
     .primary-menu-ul.nav-menu.open li a {
       margin-left: 80px;
       padding: .8em;
@@ -699,12 +892,14 @@ a {
  *# Accessibility
  *-------------------------------------------------------------- */
 /* Text meant only for screen readers. */
+/* line 2, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_accessibility.sass */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
   height: 1px;
   width: 1px;
   overflow: hidden; }
+  /* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_accessibility.sass */
   .screen-reader-text:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
@@ -726,22 +921,26 @@ a {
     /* Above WP toolbar. */ }
 
 /* Do not show the outline on the skip link target. */
+/* line 32, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_accessibility.sass */
 #content[tabindex="-1"]:focus {
   outline: 0; }
 
 /*--------------------------------------------------------------
  *# Alignments
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_alignments.sass */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em; }
 
+/* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_alignments.sass */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em; }
 
+/* line 11, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_alignments.sass */
 .aligncenter {
   clear: both;
   display: block;
@@ -751,6 +950,7 @@ a {
 /*--------------------------------------------------------------
  *# Clearings
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_clearings.sass */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -767,6 +967,7 @@ a {
   display: table;
   table-layout: fixed; }
 
+/* line 15, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_clearings.sass */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -778,9 +979,11 @@ a {
 /*--------------------------------------------------------------
  *# Widgets
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/secondary/_widgets.sass */
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
+  /* line 5, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/secondary/_widgets.sass */
   .widget select {
     max-width: 100%; }
 
@@ -790,25 +993,31 @@ a {
 /*--------------------------------------------------------------
  *## Posts and pages
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .sticky {
   display: block; }
 
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .hentry {
   margin: 0 0 1.5em; }
 
+/* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .byline,
 .updated:not(.published) {
   display: none; }
 
+/* line 11, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .single .byline,
 .group-blog .byline {
   display: inline; }
 
+/* line 15, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em auto; }
 
+/* line 21, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_posts-and-pages.sass */
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
@@ -816,6 +1025,7 @@ a {
 /*--------------------------------------------------------------
  *## Comments
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_comments.sass */
 .comments-area {
   background: pink;
   float: left;
@@ -823,18 +1033,22 @@ a {
   margin-right: 2.3576520234%;
   width: 82.9403913294%;
   margin-left: 8.5298043353%; }
+  /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
   .comments-area:last-child {
     margin-right: 0; }
 
+/* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_comments.sass */
 .comment-content a {
   word-wrap: break-word; }
 
+/* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/primary/_comments.sass */
 .bypostauthor {
   display: block; }
 
 /*--------------------------------------------------------------
  *## Pages
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
 article {
   content: "";
   display: table;
@@ -842,19 +1056,24 @@ article {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
+  /* line 3, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section {
     margin: 0 0 5em 0;
     content: "";
     display: table;
     table-layout: fixed; }
+    /* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
     article section header {
       text-align: center; }
+      /* line 8, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
       article section header img {
         width: 160px; }
+    /* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
     article section section {
       margin: 0; }
 
 @media screen and (max-width: 399px) {
+  /* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section header {
     float: left;
     display: block;
@@ -863,18 +1082,22 @@ article {
     margin-left: 0%;
     text-align: center;
     margin-bottom: 1em; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section header:last-child {
       margin-right: 0; }
+  /* line 21, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section section {
     float: left;
     display: block;
     margin-right: 7.4229717578%;
     width: 100%;
     margin-right: 0; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section section:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section header {
     float: left;
     display: block;
@@ -882,8 +1105,10 @@ article {
     width: 74.1053339349%;
     margin-left: 12.9473330325%;
     margin-bottom: 1.5em; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section header:last-child {
       margin-right: 0; }
+  /* line 32, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section section {
     float: left;
     display: block;
@@ -891,10 +1116,12 @@ article {
     width: 74.1053339349%;
     margin-left: 12.9473330325%;
     margin-right: 0; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section section:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
+  /* line 40, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section header {
     float: left;
     display: block;
@@ -902,42 +1129,52 @@ article {
     width: 28.01018974%;
     margin-left: 10.2842586086%;
     padding-right: 1em; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section header:last-child {
       margin-right: 0; }
+  /* line 44, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section section {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 48.5787069571%;
     margin-right: 0; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section section:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 1100px) {
+  /* line 51, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section header {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
     width: 23.2317609825%;
     margin-left: 8.5298043353%; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section header:last-child {
       margin-right: 0; }
+  /* line 54, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
   article section section {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
     width: 57.3509783236%;
     margin-right: 0; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     article section section:last-child {
       margin-right: 0; } }
 
+/* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
 hr {
   margin: 1em auto 2em auto;
   max-width: 1060px; }
   @media screen and (max-width: 399px) {
+    /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
     hr {
       display: none; } }
 
+/* line 66, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
 .header-too-divider {
   display: block;
   margin: -2em 2em 5em 2em;
@@ -945,18 +1182,22 @@ hr {
   background-image: url("img/tile.svg");
   background-size: 8px; }
 
+/* line 74, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
 .vertical-divider {
   width: 10px;
   float: left;
   margin-right: 1em;
   display: block; }
   @media screen and (max-width: 399px) {
+    /* line 74, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
     .vertical-divider {
       display: none; } }
   @media screen and (min-width: 400px) and (max-width: 835px) {
+    /* line 74, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_front-page.sass */
     .vertical-divider {
       display: none; } }
 
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
 .post-template-default .site-main,
 .blog .site-main {
   content: "";
@@ -967,12 +1208,14 @@ hr {
   margin-right: auto; }
 
 @media screen and (max-width: 399px) {
+  /* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
   .post-template-default article,
   .blog article {
     margin-left: 1em;
     margin-right: 1em; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
   .post-template-default article,
   .blog article {
     float: left;
@@ -980,11 +1223,13 @@ hr {
     margin-right: 3.5786642602%;
     width: 74.1053339349%;
     margin-left: 12.9473330325%; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     .post-template-default article:last-child,
     .blog article:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
+  /* line 17, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
   .post-template-default article,
   .blog article {
     float: left;
@@ -992,11 +1237,13 @@ hr {
     margin-right: 2.8425860857%;
     width: 79.4314827829%;
     margin-left: 10.2842586086%; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     .post-template-default article:last-child,
     .blog article:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 1100px) {
+  /* line 22, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
   .post-template-default article,
   .blog article {
     float: left;
@@ -1004,27 +1251,33 @@ hr {
     margin-right: 2.3576520234%;
     width: 82.9403913294%;
     margin-left: 8.5298043353%; }
+    /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
     .post-template-default article:last-child,
     .blog article:last-child {
       margin-right: 0; } }
 
+/* line 26, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_blog-posts.sass */
 .entry-meta {
   margin-bottom: 1em; }
 
+/* line 2, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
 section.full-width h1 {
   margin-bottom: 0.5em;
   color: #FF3100; }
 
+/* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
 .team-member-name {
   margin-bottom: 0.125em;
   letter-spacing: 2px; }
 
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
 .team-title {
   font-size: 0.8em;
   font-style: oblique;
   color: #FF3100; }
 
 @media screen and (max-width: 399px) {
+  /* line 17, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
   #post-9 {
     content: "";
     display: table;
@@ -1034,32 +1287,40 @@ section.full-width h1 {
     margin-right: auto;
     margin-left: 1em;
     margin-right: 1em; }
+    /* line 21, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section {
       float: left;
       display: block;
       margin-right: 7.4229717578%;
       width: 100%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section:last-child {
         margin-right: 0; }
+      /* line 23, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section header {
         float: left;
         display: block;
         margin-right: 7.4229717578%;
         width: 100%;
         text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
         #post-9 section header:last-child {
           margin-right: 0; }
+        /* line 26, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
         #post-9 section header img {
           width: 140px; }
+      /* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section section {
         float: left;
         display: block;
         margin-right: 7.4229717578%;
         width: 100%; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
         #post-9 section section:last-child {
           margin-right: 0; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 32, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
   #post-9 {
     content: "";
     display: table;
@@ -1067,6 +1328,7 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 34, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section {
       content: "";
       display: table;
@@ -1074,6 +1336,7 @@ section.full-width h1 {
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto; }
+      /* line 36, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section header {
         float: left;
         display: block;
@@ -1081,10 +1344,13 @@ section.full-width h1 {
         width: 74.1053339349%;
         margin-left: 12.9473330325%;
         text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
         #post-9 section header:last-child {
           margin-right: 0; }
+        /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
         #post-9 section header img {
           width: 140px; }
+      /* line 43, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section section {
         float: left;
         display: block;
@@ -1092,18 +1358,22 @@ section.full-width h1 {
         width: 74.1053339349%;
         margin-left: 12.9473330325%;
         text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
         #post-9 section section:last-child {
           margin-right: 0; }
+    /* line 48, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section.full-width {
       float: left;
       display: block;
       margin-right: 3.5786642602%;
       width: 74.1053339349%;
       margin-left: 12.9473330325%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section.full-width:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
+  /* line 53, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
   #post-9 {
     content: "";
     display: table;
@@ -1111,32 +1381,40 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section section {
       float: left;
       display: block;
       margin-right: 2.8425860857%;
       width: 58.8629655657%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section section:last-child {
         margin-right: 0; }
+    /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section header {
       float: left;
       display: block;
       margin-right: 2.8425860857%;
       width: 17.7259311314%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section header:last-child {
         margin-right: 0; }
+      /* line 60, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section header img {
         width: 140px; }
+    /* line 63, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section.full-width {
       float: left;
       display: block;
       margin-right: 2.8425860857%;
       width: 79.4314827829%;
       margin-left: 10.2842586086%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section.full-width:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 1100px) {
+  /* line 68, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
   #post-9 {
     content: "";
     display: table;
@@ -1144,53 +1422,67 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 71, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section section {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 65.8807826589%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section section:last-child {
         margin-right: 0; }
+    /* line 73, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section header {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 14.7019566472%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section header:last-child {
         margin-right: 0; }
+      /* line 75, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
       #post-9 section header img {
         width: 140px; }
+    /* line 78, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_team.sass */
     #post-9 section.full-width {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 82.9403913294%;
       margin-left: 8.5298043353%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-9 section.full-width:last-child {
         margin-right: 0; } }
 
+/* line 3, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
 #post-7 .entry-content section {
   margin-bottom: 2em; }
 
+/* line 5, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
 #post-7 h1 {
   color: #FF3100; }
 
+/* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
 #post-7 h1 {
   margin-bottom: 1em; }
 
+/* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
 #post-7 h2 {
   font-family: "adelle", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-size: 2em;
   margin-bottom: 0.5em; }
 
+/* line 13, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
 #post-7 ul {
   list-style: none;
   margin-left: 1em; }
+  /* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
   #post-7 ul li {
     font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-weight: 300; }
 
 @media screen and (max-width: 399px) {
+  /* line 22, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
   #post-7 .entry-content {
     content: "";
     display: table;
@@ -1200,15 +1492,18 @@ section.full-width h1 {
     margin-right: auto;
     margin-left: 1em;
     margin-right: 1em; }
+    /* line 26, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
     #post-7 .entry-content section {
       float: left;
       display: block;
       margin-right: 7.4229717578%;
       width: 100%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-7 .entry-content section:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 31, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
   #post-7 .entry-content {
     content: "";
     display: table;
@@ -1216,16 +1511,19 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 33, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
     #post-7 .entry-content section {
       float: left;
       display: block;
       margin-right: 3.5786642602%;
       width: 74.1053339349%;
       margin-left: 12.9473330325%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-7 .entry-content section:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
+  /* line 39, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
   #post-7 .entry-content {
     content: "";
     display: table;
@@ -1233,16 +1531,19 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
     #post-7 .entry-content section {
       float: left;
       display: block;
       margin-right: 2.8425860857%;
       width: 79.4314827829%;
       margin-left: 10.2842586086%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-7 .entry-content section:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 1100px) {
+  /* line 47, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
   #post-7 .entry-content {
     content: "";
     display: table;
@@ -1250,38 +1551,36 @@ section.full-width h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
+    /* line 49, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_clients.sass */
     #post-7 .entry-content section {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 82.9403913294%;
       margin-left: 8.5298043353%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
       #post-7 .entry-content section:last-child {
         margin-right: 0; } }
 
-#post-84 .entry-content section {
-  margin-bottom: 2em; }
-
-#post-84 h1 {
+/* line 2, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+section.full-width h1 {
+  margin-bottom: 0.5em;
   color: #FF3100; }
 
-#post-84 h1 {
-  margin-bottom: 1em; }
+/* line 6, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+.team-member-name {
+  margin-bottom: 0.125em;
+  letter-spacing: 2px; }
 
-#post-84 h2 {
-  font-family: "adelle", "Georgia", "Cambria", "Times New Roman", "Times", serif;
-  font-size: 2em;
-  margin-bottom: 0.5em; }
-
-#post-84 ul {
-  list-style: none;
-  margin-left: 1em; }
-  #post-84 ul li {
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-weight: 300; }
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+.team-title {
+  font-size: 0.8em;
+  font-style: oblique;
+  color: #FF3100; }
 
 @media screen and (max-width: 399px) {
-  #post-84 .entry-content {
+  /* line 17, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+  #post-84 {
     content: "";
     display: table;
     table-layout: fixed;
@@ -1290,81 +1589,388 @@ section.full-width h1 {
     margin-right: auto;
     margin-left: 1em;
     margin-right: 1em; }
-    #post-84 .entry-content section {
+    /* line 21, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section {
       float: left;
       display: block;
       margin-right: 7.4229717578%;
       width: 100%; }
-      #post-84 .entry-content section:last-child {
-        margin-right: 0; } }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section:last-child {
+        margin-right: 0; }
+      /* line 23, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section header {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-84 section header:last-child {
+          margin-right: 0; }
+        /* line 26, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+        #post-84 section header img {
+          width: 140px; }
+      /* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section section {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-84 section section:last-child {
+          margin-right: 0; } }
 
 @media screen and (min-width: 400px) and (max-width: 835px) {
-  #post-84 .entry-content {
+  /* line 32, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+  #post-84 {
     content: "";
     display: table;
     table-layout: fixed;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
-    #post-84 .entry-content section {
+    /* line 34, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section {
+      content: "";
+      display: table;
+      table-layout: fixed;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 36, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section header {
+        float: left;
+        display: block;
+        margin-right: 3.5786642602%;
+        width: 74.1053339349%;
+        margin-left: 12.9473330325%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-84 section header:last-child {
+          margin-right: 0; }
+        /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+        #post-84 section header img {
+          width: 140px; }
+      /* line 43, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section section {
+        float: left;
+        display: block;
+        margin-right: 3.5786642602%;
+        width: 74.1053339349%;
+        margin-left: 12.9473330325%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-84 section section:last-child {
+          margin-right: 0; }
+    /* line 48, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section.full-width {
       float: left;
       display: block;
       margin-right: 3.5786642602%;
       width: 74.1053339349%;
       margin-left: 12.9473330325%; }
-      #post-84 .entry-content section:last-child {
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section.full-width:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 836px) and (max-width: 1099px) {
-  #post-84 .entry-content {
+  /* line 53, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+  #post-84 {
     content: "";
     display: table;
     table-layout: fixed;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
-    #post-84 .entry-content section {
+    /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section section {
+      float: left;
+      display: block;
+      margin-right: 2.8425860857%;
+      width: 58.8629655657%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section section:last-child {
+        margin-right: 0; }
+    /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section header {
+      float: left;
+      display: block;
+      margin-right: 2.8425860857%;
+      width: 17.7259311314%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section header:last-child {
+        margin-right: 0; }
+      /* line 60, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section header img {
+        width: 140px; }
+    /* line 63, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section.full-width {
       float: left;
       display: block;
       margin-right: 2.8425860857%;
       width: 79.4314827829%;
       margin-left: 10.2842586086%; }
-      #post-84 .entry-content section:last-child {
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section.full-width:last-child {
         margin-right: 0; } }
 
 @media screen and (min-width: 1100px) {
-  #post-84 .entry-content {
+  /* line 68, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+  #post-84 {
     content: "";
     display: table;
     table-layout: fixed;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
-    #post-84 .entry-content section {
+    /* line 71, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section section {
+      float: left;
+      display: block;
+      margin-right: 2.3576520234%;
+      width: 65.8807826589%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section section:last-child {
+        margin-right: 0; }
+    /* line 73, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section header {
+      float: left;
+      display: block;
+      margin-right: 2.3576520234%;
+      width: 14.7019566472%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section header:last-child {
+        margin-right: 0; }
+      /* line 75, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+      #post-84 section header img {
+        width: 140px; }
+    /* line 78, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_services.sass */
+    #post-84 section.full-width {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 82.9403913294%;
       margin-left: 8.5298043353%; }
-      #post-84 .entry-content section:last-child {
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-84 section.full-width:last-child {
+        margin-right: 0; } }
+
+@media screen and (max-width: 399px) {
+  /* line 3, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+  #post-91 {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1em;
+    margin-right: 1em; }
+    /* line 7, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section {
+      float: left;
+      display: block;
+      margin-right: 7.4229717578%;
+      width: 100%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-91 section:last-child {
+        margin-right: 0; }
+      /* line 9, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section header {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section header:last-child {
+          margin-right: 0; }
+        /* line 12, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+        #post-91 section header img {
+          width: 140px; }
+      /* line 14, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section section {
+        float: left;
+        display: block;
+        margin-right: 7.4229717578%;
+        width: 100%; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section section:last-child {
+          margin-right: 0; } }
+
+@media screen and (min-width: 400px) and (max-width: 835px) {
+  /* line 18, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+  #post-91 {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 20, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section {
+      content: "";
+      display: table;
+      table-layout: fixed;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 22, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section header {
+        float: left;
+        display: block;
+        margin-right: 3.5786642602%;
+        width: 74.1053339349%;
+        margin-left: 12.9473330325%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section header:last-child {
+          margin-right: 0; }
+        /* line 27, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+        #post-91 section header img {
+          width: 140px; }
+      /* line 29, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section section {
+        float: left;
+        display: block;
+        margin-right: 3.5786642602%;
+        width: 74.1053339349%;
+        margin-left: 12.9473330325%;
+        text-align: left; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section section:last-child {
+          margin-right: 0; }
+    /* line 34, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section.full-width {
+      float: left;
+      display: block;
+      margin-right: 3.5786642602%;
+      width: 74.1053339349%;
+      margin-left: 12.9473330325%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-91 section.full-width:last-child {
+        margin-right: 0; } }
+
+@media screen and (min-width: 836px) and (max-width: 1099px) {
+  /* line 39, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+  #post-91 {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 41, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section {
+      content: "";
+      display: table;
+      table-layout: fixed;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 43, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section section {
+        float: left;
+        display: block;
+        margin-right: 2.8425860857%;
+        width: 58.8629655657%; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section section:last-child {
+          margin-right: 0; }
+      /* line 45, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section header {
+        float: left;
+        display: block;
+        margin-right: 2.8425860857%;
+        width: 17.7259311314%;
+        margin-right: 0; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section header:last-child {
+          margin-right: 0; }
+        /* line 48, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+        #post-91 section header img {
+          width: 160px; }
+    /* line 51, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section.full-width {
+      float: left;
+      display: block;
+      margin-right: 2.8425860857%;
+      width: 79.4314827829%;
+      margin-left: 10.2842586086%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-91 section.full-width:last-child {
+        margin-right: 0; } }
+
+@media screen and (min-width: 1100px) {
+  /* line 56, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+  #post-91 {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 58, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section {
+      content: "";
+      display: table;
+      table-layout: fixed;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 60, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section section {
+        float: left;
+        display: block;
+        margin-right: 2.3576520234%;
+        width: 65.8807826589%; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section section:last-child {
+          margin-right: 0; }
+      /* line 62, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+      #post-91 section header {
+        float: left;
+        display: block;
+        margin-right: 2.3576520234%;
+        width: 14.7019566472%;
+        margin-right: 0; }
+        /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+        #post-91 section header:last-child {
+          margin-right: 0; }
+        /* line 65, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+        #post-91 section header img {
+          width: 140px; }
+    /* line 68, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/site/pages/_work.sass */
+    #post-91 section.full-width {
+      float: left;
+      display: block;
+      margin-right: 2.3576520234%;
+      width: 82.9403913294%;
+      margin-left: 8.5298043353%; }
+      /* line 89, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/vendor/neat/grid/_span-columns.scss */
+      #post-91 section.full-width:last-child {
         margin-right: 0; } }
 
 /*--------------------------------------------------------------
  *# Infinite scroll
  *-------------------------------------------------------------- */
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
+/* line 2, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_infinite-scroll.sass */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
   display: none; }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+/* line 8, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/modules/_infinite-scroll.sass */
 .infinity-end.neverending .site-footer {
   display: block; }
 
 /*--------------------------------------------------------------
  *# Media
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_media.sass */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1374,6 +1980,7 @@ section.full-width h1 {
   padding: 0; }
 
 /* Make sure embeds and iframes fit their containers. */
+/* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_media.sass */
 embed,
 iframe,
 object {
@@ -1382,47 +1989,62 @@ object {
 /*--------------------------------------------------------------
  *## Captions
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_captions.sass */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%; }
+  /* line 5, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_captions.sass */
   .wp-caption img[class*="wp-image-"] {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  /* line 8, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_captions.sass */
   .wp-caption .wp-caption-text {
     margin: 0.8075em 0; }
 
+/* line 11, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_captions.sass */
 .wp-caption-text {
   text-align: center; }
 
 /*--------------------------------------------------------------
  *## Galleries
  *-------------------------------------------------------------- */
+/* line 1, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
 .gallery {
   margin-bottom: 1.5em; }
 
+/* line 4, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
 .gallery-item {
   display: inline-block;
   text-align: center;
   vertical-align: top;
   width: 100%; }
+  /* line 10, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-2 .gallery-item {
     max-width: 50%; }
+  /* line 13, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-3 .gallery-item {
     max-width: 33.33%; }
+  /* line 16, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-4 .gallery-item {
     max-width: 25%; }
+  /* line 19, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-5 .gallery-item {
     max-width: 20%; }
+  /* line 22, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-6 .gallery-item {
     max-width: 16.66%; }
+  /* line 25, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-7 .gallery-item {
     max-width: 14.28%; }
+  /* line 28, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-8 .gallery-item {
     max-width: 12.5%; }
+  /* line 31, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
   .gallery-columns-9 .gallery-item {
     max-width: 11.11%; }
 
+/* line 34, /Volumes/Work/__working/reswp/wp-content/themes/resolutionathens/sass/media/_galleries.sass */
 .gallery-caption {
   display: block; }
 
