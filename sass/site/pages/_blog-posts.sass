@@ -1,28 +1,49 @@
-.post-template-default
+.post-template-default,
+.blog
 
-  .site-content
+  .site-main
     +outer-container
-    // background: pink
-    header.entry-header
-      display: block
-      +clearfix
-
+  +media($small-screen)
     article
-      // background: pink
-      margin-left: auto
-      margin-right: auto
+      margin-left: 1em
+      margin-right: 1em
+
+  +media($medium-screen)
+    article
+      +span-columns(6)
+      +shift(1)
+
+  +media($large-screen)
+    article
+      +span-columns(8)
+      +shift(1)
+
+  +media($xl-screen)
+    article
       +span-columns(10)
       +shift(1)
 
-    .entry-content
-      width: 100%
+.entry-meta
+  margin-bottom: 1em
+  //
+  // header.entry-header
+  //   display: block
+  //   margin-bottom: 2em
+  //   +clearfix
 
-    .comments-area
-      margin-left: auto
-      margin-right: auto
-
-  h1
-    font-family: $font__sutro
-    
-  h2, h3, h4, h5
-    font-family: $font__adelle
+  // article
+  //   margin-left: auto
+  //   margin-right: auto
+  //
+  // .entry-content
+  //   width: 100%
+  //
+  // h1
+  //   font-family: $font__sutro
+  //   color: $resolution-red
+  //
+  // h2, h3, h4, h5
+  //   font-family: $font__adelle
+  //
+  // h2
+  //   margin-bottom: .5em

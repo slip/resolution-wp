@@ -1,0 +1,51 @@
+#post-84
+  .entry-content
+    section
+      margin-bottom: 2em
+  h1
+    color: $resolution-red
+  h1
+    margin-bottom: 1em
+  h2
+    font-family: $font__adelle
+    font-size: 2em
+    margin-bottom: 0.5em
+  ul
+    list-style: none
+    margin-left: 1em
+    li
+      font-family: $font__roboto
+      font-weight: 300
+
++media($small-screen)
+  #post-84
+    .entry-content
+      +outer-container
+      margin-left: 1em
+      margin-right: 1em
+      section
+        +span-columns(4)
+
++media($medium-screen)
+  #post-84
+    .entry-content
+      +outer-container
+      section
+        +span-columns(6)
+        +shift(1)
+
++media($large-screen)
+  #post-84
+    .entry-content
+      +outer-container
+      section
+        +span-columns(8)
+        +shift(1)
+
++media($xl-screen)
+  #post-84
+    .entry-content
+      +outer-container
+      section
+        +span-columns(10)
+        +shift(1)

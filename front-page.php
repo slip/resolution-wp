@@ -23,9 +23,7 @@ get_header(); ?>
         <p class="res-red">Our mission is to provide the best online strategy, branding, and user-centric design to discerning, results-driven clients who are motivated to grow their brand.</p>
       </section>
     </section>
-
     <div class="header-too-divider"></div>
-
     <section>
       <header><img src="http://ians-mac-pro.lan:5757/wp-content/uploads/2017/01/illustration-you.png" alt="You need results" /></header>
       <section>
