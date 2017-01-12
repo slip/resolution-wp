@@ -1,70 +1,59 @@
 article
-  margin: 0 auto
-  // padding: 0 auto
-
+  +outer-container
   section
-    margin: 0 0 1.5em 0
+    margin: 0 0 5em 0
     +clearfix
-
     header
+      text-align: center
       img
         width: 160px
-
     section
       margin: 0
 
-  +media($small-screen)
++media($small-screen)
+  article
     section
       header
-        +span-columns(2)
+        +span-columns(4)
         +shift(0)
-        +omega()
         text-align: center
         margin-bottom: 1em
       section
-        +span-columns(2)
+        +span-columns(4)
         +omega()
 
-  +media($medium-screen)
++media($medium-screen)
+  article
     section
-      margin: 0 5em
       header
-        +span-columns(4)
-        +shift(0)
-        +omega()
-        text-align: center
+        +span-columns(6)
+        +shift(1)
         margin-bottom: 1.5em
       section
-        +span-columns(4)
+        +span-columns(6)
+        +shift(1)
         +omega()
-        text-align: center
 
-  +media($large-screen)
++media($large-screen)
+  article
     section
       header
         +span-columns(3)
         +shift(1)
-        +omega()
         padding-right: 1em
       section
-        +span-columns(3)
+        +span-columns(5)
         +omega()
 
-  +media($xl-screen)
++media($xl-screen)
+  article
     section
-      +outer-container
-
       header
         +span-columns(3)
         +shift(1)
-        +omega()
-        img
-          width: 175px
-
       section
         +span-columns(7)
         +omega()
-        padding: 0
 
 hr
   margin: 1em auto 2em auto
@@ -75,9 +64,9 @@ hr
     // display: none
 
 .header-too-divider
-  margin: 2em auto
+  display: block
+  margin: -2em 2em 5em 2em
   height: 26px
-  max-width: 1060px
   background:
     image: url('img/tile.svg')
     size: 8px
