@@ -1,7 +1,5 @@
 .article--main
   +outer-container
-  margin-left: 1em
-  margin-right: 1em
 
 .header-too-divider
   margin-top: -3em
@@ -27,6 +25,13 @@
   .section--inner
     +span-columns(7 of 12)
 
+  .section--full-width
+    +span-columns(7)
+    +shift(4)
+    margin-bottom: 5em
+    h1
+      color: $resolution-red
+
   .header-too-divider
     +span-columns(10)
     +shift(1)
@@ -40,10 +45,17 @@
   .section__header
     +span-columns(2 of 10)
     +shift(1)
-    text-align: center
+    // text-align: center
 
   .section--inner
     +span-columns(6 of 10)
+
+  .section--full-width
+    +span-columns(6)
+    +shift(3)
+    margin-bottom: 5em
+    h1
+      color: $resolution-red
 
   .header-too-divider
     +span-columns(8)
@@ -53,10 +65,14 @@
     .section__header
       +span-columns(8 of 10)
       +shift(1)
+      text-align: center
     .section--inner
       +span-columns(6 of 10)
       +shift(2)
       text-align: center
+      p
+        font-size: 1.5em
+        margin-bottom: 0
 
 // 8 column layout
 +media($medium-screen)
@@ -74,9 +90,15 @@
     +span-columns(6 of 8)
     +shift(1)
 
-  .header-too-divider
+  .section--full-width
     +span-columns(6)
     +shift(1)
+    margin-bottom: 5em
+    h1
+      color: $resolution-red
+
+  .header-too-divider
+    +span-columns(8)
 
   #resolution-mission
     .section__header
@@ -88,12 +110,17 @@
       +shift(1)
       text-align: center
       margin-bottom: 0
+      p
+        font-size: 1.3em
+        margin-bottom: 0
 
 // 4 column layout
 +media($small-screen)
   .section--outer
     +span-columns(4)
     margin-bottom: 3em
+    padding-left: 1em
+    padding-right: 1em
 
   .section__header
     +span-columns(4 of 4)
@@ -103,6 +130,15 @@
   .section--inner
     +span-columns(4 of 4)
     text-align: center
+
+  .section--full-width
+    +span-columns(4)
+    padding-left: 1em
+    padding-right: 1em
+    margin-bottom: 5em
+    text-align: center
+    h1
+      color: $resolution-red
 
   .header-too-divider
     +span-columns(4)
