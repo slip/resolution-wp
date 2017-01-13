@@ -1,75 +1,131 @@
-article
+.article--main
   +outer-container
-  section
-    margin: 0 0 5em 0
-    +clearfix
-    header
-      text-align: center
-      img
-        width: 160px
-    section
-      margin: 0
-
-+media($small-screen)
-  article
-    section
-      header
-        +span-columns(4)
-        +shift(0)
-        text-align: center
-        margin-bottom: 1em
-      section
-        +span-columns(4)
-        +omega()
-
-+media($medium-screen)
-  article
-    section
-      header
-        +span-columns(6)
-        +shift(1)
-        margin-bottom: 1.5em
-      section
-        +span-columns(6)
-        +shift(1)
-        +omega()
-
-+media($large-screen)
-  article
-    section
-      header
-        +span-columns(3)
-        +shift(1)
-        padding-right: 1em
-      section
-        +span-columns(5)
-        +omega()
-
-+media($xl-screen)
-  article
-    section
-      header
-        +span-columns(3)
-        +shift(1)
-      section
-        +span-columns(7)
-        +omega()
-
-hr
-  margin: 1em auto 2em auto
-  max-width: 1060px
-  +media($small-screen)
-    display: none
-  +media($medium-screen)
-    // display: none
+  margin-left: 1em
+  margin-right: 1em
 
 .header-too-divider
-  display: block
-  margin: -2em 2em 5em 2em
+  margin-top: -3em
+  margin-bottom: 5em
   height: 26px
   background:
     image: url('img/tile.svg')
     size: 8px
+
+//media queries
+// 12 column layout
++media($xl-screen)
+
+  .section--outer
+    +span-columns(12)
+    margin-bottom: 5em
+
+  .section__header
+    +span-columns(3 of 12)
+    +shift(1)
+    text-align: center
+
+  .section--inner
+    +span-columns(7 of 12)
+
+  .header-too-divider
+    +span-columns(10)
+    +shift(1)
+
+// 10 column layout
++media($large-screen)
+  .section--outer
+    +span-columns(10)
+    margin-bottom: 5em
+
+  .section__header
+    +span-columns(2 of 10)
+    +shift(1)
+    text-align: center
+
+  .section--inner
+    +span-columns(6 of 10)
+
+  .header-too-divider
+    +span-columns(8)
+    +shift(1)
+
+  #resolution-mission
+    .section__header
+      +span-columns(8 of 10)
+      +shift(1)
+    .section--inner
+      +span-columns(6 of 10)
+      +shift(2)
+      text-align: center
+
+// 8 column layout
++media($medium-screen)
+  .section--outer
+    +span-columns(8)
+    margin-bottom: 5em
+
+  .section__header
+    +span-columns(6 of 8)
+    +shift(1)
+    text-align: center
+    margin-bottom: 2em
+
+  .section--inner
+    +span-columns(6 of 8)
+    +shift(1)
+
+  .header-too-divider
+    +span-columns(6)
+    +shift(1)
+
+  #resolution-mission
+    .section__header
+      +span-columns(6 of 8)
+      +shift(1)
+      margin-bottom: 1em
+    .section--inner
+      +span-columns(6 of 8)
+      +shift(1)
+      text-align: center
+      margin-bottom: 0
+
+// 4 column layout
++media($small-screen)
+  .section--outer
+    +span-columns(4)
+    margin-bottom: 3em
+
+  .section__header
+    +span-columns(4 of 4)
+    text-align: center
+    margin-bottom: 2em
+
+  .section--inner
+    +span-columns(4 of 4)
+    text-align: center
+
+  .header-too-divider
+    +span-columns(4)
+
+  #resolution-mission
+    .section__header
+      +span-columns(6 of 8)
+      +shift(1)
+      margin-bottom: 1em
+    .section--inner
+      +span-columns(6 of 8)
+      +shift(1)
+      text-align: center
+      margin-bottom: 1em
+
+// TODO: move this to typography
+.p--margin-top
+  padding-top: 2em
+
+//TODO: move this to header
+hr
+  margin: 1em auto 2em auto
+  max-width: 1060px
 
 .vertical-divider
   width: 10px
@@ -79,4 +135,6 @@ hr
   +media($small-screen)
     display: none
   +media($medium-screen)
+    display: none
+  +media($large-screen)
     display: none
