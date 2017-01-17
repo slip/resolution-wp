@@ -1059,7 +1059,6 @@ a {
     display: block;
     margin-right: 7.4229717578%;
     width: 100%;
-    margin-left: 26.8557429395%;
     padding-left: 1em;
     padding-right: 1em; }
     .section--all-columns:last-child {
@@ -1285,17 +1284,7 @@ hr {
     flex: 0 0 30%; }
 
 .nf-form-cont {
-  background: rgba(0, 0, 255, 0.25);
   width: 100%; }
-  @media screen and (min-width: 1100px) {
-    .nf-form-cont {
-      float: left;
-      display: block;
-      margin-right: 2.3576520234%;
-      width: 82.9403913294%;
-      margin-left: 8.5298043353%; }
-      .nf-form-cont:last-child {
-        margin-right: 0; } }
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
