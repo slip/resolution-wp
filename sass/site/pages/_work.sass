@@ -1,0 +1,38 @@
+.section__portfolio
+  +span-columns(10)
+  +shift(1)
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  margin-bottom: 4.8em
+
+  figure
+    padding: 1em
+    text-align: center
+    p
+      margin: 0
+    img
+      min-width: 250px
+    figcaption
+      font-size: .85em
+
+.section__portfolio--identity
+  @extend .section__portfolio
+
+.section__portfolio--web
+  @extend .section__portfolio
+
+.section__portfolio--print
+  @extend .section__portfolio
+  align-items: flex-end
+  figure
+    img
+      width: 360px
+  .figure--full-width
+    flex: 0 0 100%
+    img
+      width: 100%
+  .figure--1of2
+    flex: 0 0 45%
+  .figure--1of3
+    flex: 0 0 30%

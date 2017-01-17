@@ -32,6 +32,14 @@
     h1
       color: $resolution-red
 
+  .section--all-columns
+    +span-columns(10)
+    +shift(1)
+    // margin-bottom: 5em
+    h1
+      color: $resolution-red
+
+
   .header-too-divider
     +span-columns(10)
     +shift(1)
@@ -56,6 +64,14 @@
     margin-bottom: 5em
     h1
       color: $resolution-red
+
+  .section--all-columns
+    +span-columns(8)
+    +shift(1)
+    // margin-bottom: 5em
+    h1
+      color: $resolution-red
+
 
   .header-too-divider
     +span-columns(8)
@@ -96,6 +112,14 @@
     margin-bottom: 5em
     h1
       color: $resolution-red
+
+  .section--all-columns
+    +span-columns(6)
+    +shift(1)
+    // margin-bottom: 5em
+    h1
+      color: $resolution-red
+
 
   .header-too-divider
     +span-columns(8)
@@ -140,6 +164,15 @@
     h1
       color: $resolution-red
 
+  .section--all-columns
+    +span-columns(4)
+    +shift(1)
+    padding-left: 1em
+    padding-right: 1em
+    // margin-bottom: 5em
+    h1
+      color: $resolution-red
+
   .header-too-divider
     +span-columns(4)
 
@@ -155,8 +188,20 @@
       margin-bottom: 1em
 
 // TODO: move this to typography
+
 .p--margin-top
-  padding-top: 2em
+  +media($xl-screen)
+    font-size: 1.5em
+    padding-top: .5em
+  +media($large-screen)
+    padding-top: .5em
+    font-size: 1em
+  +media($medium-screen)
+    padding-top: .5em
+    font-size: 1em
+  +media($small-screen)
+    padding-top: .5em
+    font-size: 1em
 
 //TODO: move this to header
 hr
