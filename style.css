@@ -1248,6 +1248,13 @@ hr {
 .image--team-member {
   width: 140px; }
 
+blockquote {
+  margin-bottom: 2em;
+  margin-left: 0; }
+  blockquote footer {
+    margin-top: -0.5em;
+    color: #00829B; }
+
 .section__portfolio, .section__portfolio--identity, .section__portfolio--web, .section__portfolio--print {
   float: left;
   display: block;
@@ -1285,6 +1292,9 @@ hr {
 
 .nf-form-cont {
   width: 100%; }
+
+.nf-form-fields-required {
+  display: none; }
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
