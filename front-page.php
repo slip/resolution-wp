@@ -49,7 +49,7 @@ get_header(); ?>
       <header class="section__header"><img src="http://ians-mac-pro.lan:5757/wp-content/uploads/2017/01/resolution-red.png" width="180px" alt="Resolution Athens Logo" /></header>
       <section class="section--inner">
         <h3>Let's get started.</h3>
-        <p>When you are ready to grow your business online, send your name and email using the form below or <a href="tel:706.351.1774">give us a call</a>. We will get in touch to determine our fit as your partner and how we may be able to help you.</p>
+        <p>When you are ready to grow your business online, send your name and email using <a href="/contact-resolution/">our contact form</a> or <a href="tel:706.351.1774">give us a call</a>. We will get in touch to determine our fit as your partner and how we may be able to help you.</p>
       </section>
     </section>
   </article>

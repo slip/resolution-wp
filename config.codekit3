@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.jscsrc": {
 		"ft": 8192,
 		"oA": 2,
@@ -62,14 +68,6 @@
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
-		},
-	"\/img\/athens-firehall-hero.jpg": {
-		"ft": 16384,
-		"iS": 275074,
-		"oA": 0,
-		"oAP": "\/img\/athens-firehall-hero.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/img\/email.svg": {
 		"ft": 2097152,
